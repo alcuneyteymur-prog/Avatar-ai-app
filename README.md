@@ -1,2 +1,3 @@
 # Avatar-ai-app
 AvatarAl - Dijital Avatar Platform 
+{ "name": "avatar-ai-backend", "version": "1.0.0", "description": "AvatarAI - Dijital Avatar Platformu Backend", "main": "server.js", "scripts": { "start": "node server.js", "dev": "nodemon server.js" }, "dependencies": { "express": "^4.18.2", "cors": "^2.8.5", "dotenv": "^16.3.1", "mongoose": "^8.0.3", "socket.io": "^4.7.2", "openai": "^4.24.1", "axios": "^1.6.2", "bcryptjs": "^2.4.3", "jsonwebtoken": "^9.0.2", "multer": "^1.4.5-lts.1", "stripe": "^14.9.0", "express-rate-limit": "^7.1.5", "helmet": "^7.1.0", "express-mongo-sanitize": "^2.2.0", "form-data": "^4.0.0", "uuid": "^9.0.1", "resend": "^2.0.0" }, "devDependencies": { "nodemon": "^3.0.2" } }
